@@ -1,5 +1,5 @@
 
-import { Calendar, MessageSquare, TrendingUp, Database, Zap, Clock, UserCheck, Settings, Code } from "lucide-react";
+import { Calendar, Clock, Code, Database, MessageSquare, Settings, TrendingUp, UserCheck, Zap } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -22,6 +22,11 @@ const Services = () => {
       icon: <MessageSquare className="h-8 w-8 text-cyan-300" />,
       title: "WhatsApp + GPT Follow-ups",
       description: "Intelligent client follow-up messages via WhatsApp powered by GPT for personalized communication."
+    },
+    {
+      icon: <Zap className="h-8 w-8 text-blue-400" />,
+      title: "Custom n8n Workflow Creation",
+      description: "Fully tailored automation workflows built with n8n to match your specific business requirements."
     },
     {
       icon: <Zap className="h-8 w-8 text-blue-400" />,

@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Calendar, MessageSquare, Database, Zap, Bot, Users, BarChart3 } from "lucide-react";
+import { ArrowRight, BarChart3, Bot, Calendar, Database, MessageSquare, Zap } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -26,16 +26,16 @@ const Hero = () => {
 
             {/* Main headline */}
             <div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-                Stop doing
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
+                Automate Smarter 
                 <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent block">
-                  repetitive work
+                  with AI Agents
                 </span>
               </h1>
               
               <p className="text-xl md:text-2xl text-blue-100 mb-10 leading-relaxed max-w-2xl">
-                We automate your daily operations with AI-powered workflows. 
-                Connect your tools, eliminate manual tasks, and focus on what matters most.
+               Build flows to handle messages, appointments, reports, and updates. 
+               Your AI agent manages repeat tasks so you work smarter with fewer tools and more control.
               </p>
             </div>
 
